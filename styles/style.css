@@ -82,7 +82,7 @@
   padding: 6px 10px;
   font-variation-settings: "wght" var(--font-weight-title);
   font-size: var(--main-font-size);
-  line-height: var(--line-height-title);
+  line-height: 112%;
   border-bottom: 2px solid var(--main-color);
 }
 

@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="./styles/globals.css" />
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/animations.css" />
-  <script src="./scripts/like.js"></script>
 </head>
 
 <body class="page">
@@ -276,7 +275,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="button card__like-button is-liked" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -381,12 +380,12 @@
       </button>
     </section>
     <dialog class="dialog" id="some-modal-id" aria-label="Dialog window">
-      <section class="dialog-content">
+      <div class="dialog-content">
         <svg class="icon" xmlns="http://www.w3.org/2000/svg">
           <use href="svg/sprite.svg#save-icon"></use>
         </svg>
-        <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
-      </section>
+        <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+      </div>
       <form method="dialog" class="dialog-button-ok">
         <button class="button dialog-button">
           <span class="button__text">ок</span>
@@ -394,6 +393,7 @@
       </form>
     </dialog>
   </main>
+  <script src="./scripts/like.js"></script>
 </body>
 
 </html>
