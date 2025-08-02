@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: "Inter-Variable";
+  --accent-font-family: "PressStart2P";
+  --font-weight-title: 700;
+  --font-weight-text: 400;
+  --main-font-size: 18px;
+  --button-font-size: 14px;
+  --main-letter-spacing: 0px;
+  --line-height-title: 100%;
+  --line-height-dialog: 150%;
+  --line-height-button: 90%;
+  --main-bg-color: #fff;
+  --main-color: #000;
+  --background-gradient: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --text-stroke-color: #fff;
+  --contour-color: #000;
+  --heart-core-color: #000;
+  --heart-body-color: #000;
+  --animation-fill-color: red;
+  --heart-main-body-color: red;
+}
